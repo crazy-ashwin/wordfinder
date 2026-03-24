@@ -46,7 +46,7 @@ export function Header() {
 					<Link href='/' className='flex items-center space-x-2'>
 						<div className='text-2xl font-bold'>W</div>
 						<span className='text-xl font-semibold'>
-							FindWordFinder
+							WordFinderWord
 						</span>
 					</Link>
 
@@ -178,7 +178,7 @@ export function Header() {
 							<SheetTitle>Word Tools</SheetTitle>
 							<div className='bg-gradient-to-b from-green-400 to-green-500 text-white p-6'>
 								<h2 className='text-xl font-bold mb-4'>
-									FindWordFinder Menu
+									WordFinderWord
 								</h2>
 							</div>
 							<div className='p-6'>

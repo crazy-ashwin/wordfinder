@@ -3,7 +3,7 @@
 
 export const AD_CONFIG = {
   // Your AdSense Publisher ID
-  PUBLISHER_ID: 'ca-pub-2320541206058096',
+  PUBLISHER_ID: 'ca-pub-XxxXXXXXXXXXXXXXXXXX',
   
   // Ad Slots by Page Type
   AD_SLOTS: {

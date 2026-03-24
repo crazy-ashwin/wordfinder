@@ -76,7 +76,7 @@ export function HeroSection() {
 					</p>
 				</div>
 		{/* Google AdSense Ad Code */}
-				<AdSense adSlot="6661981734" />
+				{/* <AdSense adSlot="6661981734" /> */}
 
 				<div className='max-w-2xl mx-auto'>
 					<div className='relative mb-6' ref={searchInputRef}>
