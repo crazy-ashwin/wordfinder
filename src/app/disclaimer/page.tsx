@@ -13,7 +13,7 @@ export default function DisclaimerPage() {
             </CardHeader>
             <CardContent>
               <p className="leading-relaxed">
-                The information provided by Find Word Finder (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) on this website is for general informational purposes only. All information on the site is provided in good faith; however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
+                The information provided by Word Finder Word (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) on this website is for general informational purposes only. All information on the site is provided in good faith; however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
               </p>
             </CardContent>
           </Card>

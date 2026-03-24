@@ -73,7 +73,7 @@ export default function WordsWithFriendsDictionaryPage() {
 	return (
 		<div className='min-h-screen bg-gradient-to-b from-blue-50 to-white'>
 			<head>
-				<title>Words With Friends Dictionary | Find Word Finder</title>
+				<title>Words With Friends Dictionary | Word Finder Word</title>
 				<meta
 					name='description'
 					content='Expand your vocabulary with our Words With Friends dictionary. Find valid WWF words, calculate scores, and learn meanings of over 173,000 playable words. Perfect for crossword enthusiasts and Scrabble lovers.'

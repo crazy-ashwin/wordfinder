@@ -39,7 +39,7 @@ export function ContentSections() {
 	];
 
 	const wordFinderTools = [
-		"Find Word Finder",
+		"Word Finder Word",
 		"Anagram Solver",
 		"Word Descrambler",
 		"Word Unscrambler",
@@ -70,12 +70,12 @@ export function ContentSections() {
 						<div className='bg-white rounded-xl shadow-lg p-8 border border-gray-100'>
 							<p className='text-lg leading-relaxed mb-6 text-gray-700'>
 								<strong className='text-blue-600'>
-									Find Word Finder
+									Word Finder Word
 								</strong>{" "}
 								is the perfect help when your vocabulary fails
 								you. It&apos;s a unique word search tool, which
 								finds all possible words made up of the letters
-								you input. People use Find Word Finder for
+								you input. People use Word Finder Word for
 								various reasons, but the primary one is to win
 								games such as{" "}
 								<Link
@@ -93,7 +93,7 @@ export function ContentSections() {
 							</p>
 
 							<h2 className='text-3xl font-bold mb-6 text-gray-800 border-b-2 border-green-400 pb-2'>
-								Find Word Finder
+								Word Finder Word
 							</h2>
 							<p className='text-gray-700 leading-relaxed mb-4'>
 								Are you someone who loves finding and
@@ -197,10 +197,10 @@ export function ContentSections() {
 							</div>
 						</div>
 
-						{/* What is Find Find Word Finder Word Finder */}
+						{/* What is Find Word Finder Word Word Finder */}
 						<div className='bg-white rounded-xl shadow-lg p-8 border border-gray-100'>
 							<h2 className='text-3xl font-bold mb-6 text-gray-800 border-b-2 border-blue-400 pb-2'>
-								What is Find Word Finder?
+								What is Word Finder Word?
 							</h2>
 							<p className='text-gray-700 leading-relaxed text-lg'>
 								If you haven&apos;t had a chance to use Find
@@ -226,7 +226,7 @@ export function ContentSections() {
 						<div className='bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300'>
 							<div className='bg-gradient-to-r from-green-400 to-green-500 text-white px-6 py-4 rounded-t-xl'>
 								<h3 className='text-xl font-bold'>
-									Find Word Finder
+									Word Finder Word
 								</h3>
 							</div>
 							<div className='p-6'>

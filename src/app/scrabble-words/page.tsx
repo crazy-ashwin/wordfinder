@@ -8,7 +8,7 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-	title: "Scrabble Words | Find Word Finder",
+	title: "Scrabble Words | Word Finder Word",
 	description:
 		"Discover the best Scrabble words to boost your score! Our comprehensive database includes over 100,000 playable words from the Official Tournament and Club Word List (OTCWL).",
 	alternates: {

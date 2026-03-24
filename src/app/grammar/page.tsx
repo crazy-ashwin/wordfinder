@@ -4,7 +4,7 @@ import Link from "next/link"
 import { grammarCategories } from "@/lib/grammar-data"
 
 export const metadata: Metadata = {
-  title: "Grammar Guides | Find Word Finder",
+  title: "Grammar Guides | Word Finder Word",
   description: "Master the art of grammar with our comprehensive collection of grammar guides and resources.",
   keywords: "grammar, grammar guides, grammar resources",
   alternates: {

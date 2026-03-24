@@ -846,13 +846,13 @@ function SearchContent() {
 							<Card className='border-none bg-white shadow-none'>
 								<CardHeader className='text-center'>
 									<CardTitle className='text-3xl font-bold text-gray-800'>
-										Your Go-To Find Word Finder for Any Game
+										Your Go-To Word Finder Word for Any Game
 									</CardTitle>
 								</CardHeader>
 								<CardContent className='mx-auto max-w-4xl space-y-4 text-center text-lg text-gray-600'>
 									<p>
 										Unlock your full potential in word games
-										with our versatile Find Word Finder.
+										with our versatile Word Finder Word.
 										Whether you&apos;re playing Scrabble,
 										Words with Friends, solving a crossword,
 										or tackling any other word puzzle, our

@@ -1,8 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-	title: "Privacy Policy | Find Word Finder",
-	description: "Privacy policy for Find Word Finder",
+	title: "Privacy Policy | Word Finder Word",
+	description: "Privacy policy for Word Finder Word",
 	alternates: {
 		canonical: "/privacy",
 	},
@@ -24,7 +24,7 @@ export default function PrivacyPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='leading-relaxed mb-4'>
-								Find Word Finder collects information you
+								Word Finder Word collects information you
 								provide directly to us, such as when you contact
 								us through our contact form. This may include:
 							</p>
@@ -83,7 +83,7 @@ export default function PrivacyPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='leading-relaxed'>
-								Find Word Finder may use cookies and similar
+								Word Finder Word may use cookies and similar
 								tracking technologies to enhance your
 								experience. Cookies are small files that a site
 								or its service provider transfers to your
@@ -132,7 +132,7 @@ export default function PrivacyPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='leading-relaxed'>
-								Find Word Finder does not knowingly collect
+								Word Finder Word does not knowingly collect
 								personal information from children under 13. If
 								we become aware that a child under 13 has
 								provided us with personal information, we will

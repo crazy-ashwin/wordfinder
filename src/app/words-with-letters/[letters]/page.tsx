@@ -12,7 +12,7 @@ export async function generateMetadata(
   const upperLetters = letters.toUpperCase();
 
   return {
-    title: `Words with ${upperLetters} - Find Words Containing ${upperLetters} | Find Word Finder`,
+    title: `Words with ${upperLetters} - Find Words Containing ${upperLetters} | Word Finder Word`,
     description: `Find words that contain ${upperLetters}. Search our comprehensive database of words with ${upperLetters} for Scrabble, Words with Friends, crosswords, and vocabulary building. Perfect for word games and puzzles.`,
     alternates: {
       canonical: `/words-with-letters/${letters}`,

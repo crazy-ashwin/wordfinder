@@ -7,7 +7,7 @@ import { WordDetailsDialog } from "@/components/word-details-dialog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Scrabble Dictionary | Find Word Finder",
+	title: "Scrabble Dictionary | Word Finder Word",
 	description:
 		"The official Scrabble dictionary contains over 100,000 playable words. Our comprehensive database includes words from the Official Tournament and Club Word List (OTCWL), used in North American Scrabble tournaments.",
 	alternates: {

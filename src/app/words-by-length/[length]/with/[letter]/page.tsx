@@ -13,7 +13,7 @@ export async function generateMetadata(
   const wordLength = length.match(/(\d+)/)?.[1] || "2";
 
   return {
-    title: `${wordLength} Letter Words with ${upperLetter} - Find Words Containing ${upperLetter} | Find Word Finder`,
+    title: `${wordLength} Letter Words with ${upperLetter} - Find Words Containing ${upperLetter} | Word Finder Word`,
     description: `Find all ${wordLength} letter words containing ${upperLetter}. Search our comprehensive database of words with ${upperLetter} for Scrabble, Words with Friends, crosswords, and vocabulary building.`,
     alternates: {
       canonical: `/words-by-length/${length}/with/${letter}`,

@@ -392,7 +392,7 @@ export default function WordDescramblerPage() {
 					</div>
 					<div className='p-4'>
 						<h2 className='text-lg font-bold mb-2'>
-							Find Word Finder
+							Word Finder Word
 						</h2>
 						<ul className='space-y-1 text-gray-700'>
 							<li>

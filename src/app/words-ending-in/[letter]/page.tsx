@@ -12,7 +12,7 @@ export async function generateMetadata(
   const upperLetter = letter.toUpperCase();
 
   return {
-    title: `Words Ending with ${upperLetter} - Find Words Ending in ${upperLetter} | Find Word Finder`,
+    title: `Words Ending with ${upperLetter} - Find Words Ending in ${upperLetter} | Word Finder Word`,
     description: `Find all words ending with ${upperLetter}. Search our comprehensive database of words ending in ${upperLetter} for Scrabble, Words with Friends, crosswords, and vocabulary building.`,
     alternates: {
       canonical: `/words-ending-in/${letter}`,

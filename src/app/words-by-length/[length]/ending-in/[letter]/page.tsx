@@ -13,7 +13,7 @@ export async function generateMetadata(
   const wordLength = length.match(/(\d+)/)?.[1] || "2";
 
   return {
-    title: `${wordLength} Letter Words Ending in ${upperLetter} - Find Words Ending with ${upperLetter} | Find Word Finder`,
+    title: `${wordLength} Letter Words Ending in ${upperLetter} - Find Words Ending with ${upperLetter} | Word Finder Word`,
     description: `Find all ${wordLength} letter words ending in ${upperLetter}. Search our comprehensive database of words ending with ${upperLetter} for Scrabble, Words with Friends, crosswords, and vocabulary building.`,
     alternates: {
       canonical: `/words-by-length/${length}/ending-in/${letter}`,

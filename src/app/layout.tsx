@@ -12,30 +12,30 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	metadataBase: new URL(`${baseUrl}`),
-	title: "Find Word Finder - Free Find Word Finder & Scrabble Helper Tools | Find Words for Word Games",
+	title: "Word Finder Word - Free Word Finder Word & Scrabble Helper Tools | Find Words for Word Games",
 	description:
-		"Find words for Scrabble, Words with Friends, crosswords and other word games. Free Find Word Finder, anagram solver, word unscrambler and rhyme finder tools. Boost your word game scores!",
+		"Find words for Scrabble, Words with Friends, crosswords and other word games. Free Word Finder Word, anagram solver, word unscrambler and rhyme finder tools. Boost your word game scores!",
 	keywords:
-		"Find Word Finder, scrabble helper, words with friends cheat, anagram solver, word unscrambler, crossword solver, rhyme finder, word games, scrabble words, word tools",
-	authors: [{ name: "Find Word Finder Team" }],
-	creator: "Find Word Finder",
-	publisher: "Find Word Finder",
+		"Word Finder Word, scrabble helper, words with friends cheat, anagram solver, word unscrambler, crossword solver, rhyme finder, word games, scrabble words, word tools",
+	authors: [{ name: "Word Finder Word Team" }],
+	creator: "Word Finder Word",
+	publisher: "Word Finder Word",
 	robots: "index, follow",
 	alternates: {
 		canonical: `${baseUrl}`,
 	},
 	openGraph: {
-		title: "Find Word Finder - Free Find Word Finder & Scrabble Helper Tools",
+		title: "Word Finder Word - Free Word Finder Word & Scrabble Helper Tools",
 		description:
-			"Find words for Scrabble, Words with Friends, crosswords and other word games. Free Find Word Finder, anagram solver, word unscrambler and rhyme finder tools.",
+			"Find words for Scrabble, Words with Friends, crosswords and other word games. Free Word Finder Word, anagram solver, word unscrambler and rhyme finder tools.",
 		url: `${baseUrl}`,
-		siteName: "Find Word Finder",
+		siteName: "Word Finder Word",
 		images: [
 			{
 				url: `${baseUrl}/banner.png`,
 				width: 1200,
 				height: 630,
-				alt: "Find Word Finder",
+				alt: "Word Finder Word",
 			},
 		],
 		locale: "en_US",
@@ -83,7 +83,7 @@ export default function RootLayout({
 						__html: JSON.stringify({
 							"@context": "https://schema.org",
 							"@type": "WebSite",
-							name: "Find Word Finder",
+							name: "Word Finder Word",
 							url: `${baseUrl}`,
 							potentialAction: {
 								"@type": "SearchAction",

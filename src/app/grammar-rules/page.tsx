@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Grammar Rules | Find Word Finder",
+	title: "Grammar Rules | Word Finder Word",
 	description:
 		"Master the fundamentals of English grammar with comprehensive rules, examples, and interactive practice",
 	alternates: {

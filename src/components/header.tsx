@@ -22,7 +22,7 @@ import {
 
 export function Header() {
 	const tools = [
-		{ name: "Find Word Finder", href: "/", icon: Search },
+		{ name: "Word Finder Word", href: "/", icon: Search },
 		{ name: "Anagram Solver", href: "/anagram-solver", icon: Shuffle },
 		{ name: "Word Unscrambler", href: "/word-unscrambler", icon: Target },
 		{ name: "Crossword Solver", href: "/crossword-solver", icon: Grid3X3 },
@@ -70,7 +70,7 @@ export function Header() {
 						<Link
 							href='/word-finders'
 							className='hover:text-green-100 transition-colors'>
-							Find Word Finders
+							Word Finder Words
 						</Link>
 						<Link
 							href='/blog'
@@ -97,7 +97,7 @@ export function Header() {
 									<div className='space-y-4'>
 										<div>
 											<h3 className='font-semibold text-gray-900 mb-3'>
-												Find Word Finders
+												Word Finder Words
 											</h3>
 											<div className='space-y-2'>
 												{tools.map((tool) => {
@@ -201,7 +201,7 @@ export function Header() {
 											<Link
 												href='/word-finders'
 												className='block p-2 rounded-lg hover:bg-gray-100 transition-colors'>
-												Find Word Finders
+												Word Finder Words
 											</Link>
 											<Link
 												href='/blog'

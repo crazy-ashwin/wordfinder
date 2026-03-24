@@ -23,7 +23,7 @@ export function Footer() {
 								W
 							</div>
 							<span className='text-xl font-semibold'>
-								Find Word Finder
+								Word Finder Word
 							</span>
 						</div>
 						<p className='text-gray-300 text-sm leading-relaxed'>
@@ -65,7 +65,7 @@ export function Footer() {
 								<Link
 									href='/'
 									className='text-gray-300 hover:text-white transition-colors text-sm'>
-									Find Word Finder
+									Word Finder Word
 								</Link>
 							</li>
 							<li>
@@ -212,7 +212,7 @@ export function Footer() {
 				<div className='container mx-auto px-4 py-6'>
 					<div className='flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0'>
 						<div className='text-gray-400 text-sm'>
-							© {currentYear} Find Word Finder. All rights
+							© {currentYear} Word Finder Word. All rights
 							reserved.
 						</div>
 						<div className='flex items-center space-x-6 text-sm'>

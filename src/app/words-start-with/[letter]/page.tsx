@@ -12,7 +12,7 @@ export async function generateMetadata(
   const upperLetter = letter.toUpperCase();
 
   return {
-    title: `Words Starting with ${upperLetter} - Find Words Beginning with ${upperLetter} | Find Word Finder`,
+    title: `Words Starting with ${upperLetter} - Find Words Beginning with ${upperLetter} | Word Finder Word`,
     description: `Find all words starting with ${upperLetter}. Search our comprehensive database of words beginning with ${upperLetter} for Scrabble, Words with Friends, crosswords, and vocabulary building.`,
     alternates: {
       canonical: `/words-start-with/${letter}`,

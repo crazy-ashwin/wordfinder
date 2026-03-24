@@ -144,7 +144,7 @@ export default function WordsStartWithLetterPage({ letter }: Props) {
 
 	const sidebarSections = {
 		wordFinder: [
-			"Find Word Finder",
+			"Word Finder Word",
 			"Anagram Solver",
 			"Word Descrambler",
 			"Word Unscrambler",
@@ -672,7 +672,7 @@ export default function WordsStartWithLetterPage({ letter }: Props) {
 						{/* Word Finder Tools */}
 						<div className='bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100'>
 							<div className='bg-gradient-to-r from-green-400 to-green-500 text-white px-4 py-3'>
-								<h3 className='font-bold'>Find Word Finder</h3>
+								<h3 className='font-bold'>Word Finder Word</h3>
 							</div>
 							<div className='p-4 space-y-1'>
 								{sidebarSections.wordFinder.map(

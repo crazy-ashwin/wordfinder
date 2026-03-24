@@ -7,7 +7,7 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-	title: "Word Finders | Find Word Finder",
+	title: "Word Finders | Word Finder Word",
 	description:
 		"Powerful tools to help you find the perfect words for any game. Whether you're preparing for a big Scrabble tournament or just looking to expand your vocabulary.",
 	alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function WordFindersPage() {
 	const tools = [
 		{
-			title: "Find Word Finder",
+			title: "Word Finder Word",
 			description:
 				"Find words from your letters for Scrabble and Words with Friends",
 			icon: Search,
@@ -60,7 +60,7 @@ export default function WordFindersPage() {
 			<div className='container mx-auto px-4'>
 				<div className='max-w-6xl mx-auto'>
 					<h1 className='text-4xl font-bold text-center mb-8'>
-						Find Word Finder Tools
+						Word Finder Word Tools
 					</h1>
 					<p className='text-xl text-center text-gray-600 mb-12'>
 						Powerful tools to help you find the perfect words for

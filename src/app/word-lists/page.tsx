@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Word Lists | Find Word Finder",
+	title: "Word Lists | Word Finder Word",
 	description:
 		"Curated collections of words to improve your game. Whether you're preparing for a big Scrabble tournament or just looking to expand your vocabulary, our word lists have got you covered.",
 		alternates: {

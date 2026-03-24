@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Scrabble Score Calculator | Find Word Finder",
-	description: "Scrabble score calculator for Find Word Finder",
+	title: "Scrabble Score Calculator | Word Finder Word",
+	description: "Scrabble score calculator for Word Finder Word",
 	keywords: "scrabble score calculator, scrabble, score calculator",
 	alternates: {
 		canonical: "/scrabble-score-calculator-finder",
