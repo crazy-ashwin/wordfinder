@@ -1,0 +1,6 @@
+{
+  "watch": ["src/app/spelling"],
+  "ext": "tsx,ts,js",
+  "ignore": ["node_modules", ".next"],
+  "exec": "node scripts/generate-misspellings.js"
+} 

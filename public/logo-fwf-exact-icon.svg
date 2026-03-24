@@ -1,0 +1,66 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="fwfExactIconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#9333ea;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Highlight gradient for 3D effect -->
+    <linearGradient id="highlightFwfExactIconGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main F-W-F Tubular Shape - Centered and exactly like reference but F-W-F -->
+  <!-- First F part - Left side -->
+  <path d="M20 30 L20 80 L20 55 L45 55 L45 50 L20 50 L20 30 L45 30" 
+        fill="url(#fwfExactIconGradient)" 
+        stroke="url(#fwfExactIconGradient)" 
+        stroke-width="20" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- W part - Middle, seamlessly connected to first F -->
+  <path d="M45 30 L45 80 L60 65 L75 80 L75 30" 
+        fill="url(#fwfExactIconGradient)" 
+        stroke="url(#fwfExactIconGradient)" 
+        stroke-width="20" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Second F part - Right side, seamlessly connected to W -->
+  <path d="M75 30 L75 80 L75 55 L100 55 L100 50 L75 50 L75 30 L100 30" 
+        fill="url(#fwfExactIconGradient)" 
+        stroke="url(#fwfExactIconGradient)" 
+        stroke-width="20" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Highlight effect for 3D look - along top edges -->
+  <path d="M20 30 L20 80 L20 55 L45 55 L45 50 L20 50 L20 30 L45 30" 
+        fill="url(#highlightFwfExactIconGradient)" 
+        stroke="url(#highlightFwfExactIconGradient)" 
+        stroke-width="14" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <path d="M45 30 L45 80 L60 65 L75 80 L75 30" 
+        fill="url(#highlightFwfExactIconGradient)" 
+        stroke="url(#highlightFwfExactIconGradient)" 
+        stroke-width="14" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <path d="M75 30 L75 80 L75 55 L100 55 L100 50 L75 50 L75 30 L100 30" 
+        fill="url(#highlightFwfExactIconGradient)" 
+        stroke="url(#highlightFwfExactIconGradient)" 
+        stroke-width="14" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+</svg>

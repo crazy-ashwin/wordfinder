@@ -1,0 +1,1 @@
+export { GlobalAdInserter } from './GlobalAdInserter';

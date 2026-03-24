@@ -1,0 +1,64 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="white"/>
+  
+  <!-- Scrabble Tiles - Arranged horizontally with slight tilt -->
+  <!-- Tile 1: 4 -->
+  <rect x="30" y="60" width="25" height="25" fill="#d97706" stroke="#92400e" stroke-width="2" rx="3" transform="rotate(-5 42.5 72.5)"/>
+  <text x="42.5" y="75" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white" transform="rotate(-5 42.5 72.5)">4</text>
+  
+  <!-- Tile 2: 0 -->
+  <rect x="60" y="55" width="25" height="25" fill="#059669" stroke="#047857" stroke-width="2" rx="3" transform="rotate(3 72.5 67.5)"/>
+  <text x="72.5" y="70" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white" transform="rotate(3 72.5 67.5)">0</text>
+  
+  <!-- Tile 3: 4 -->
+  <rect x="90" y="60" width="25" height="25" fill="#dc2626" stroke="#991b1b" stroke-width="2" rx="3" transform="rotate(-2 102.5 72.5)"/>
+  <text x="102.5" y="75" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white" transform="rotate(-2 102.5 72.5)">4</text>
+  
+  <!-- Tile 4: ? -->
+  <rect x="120" y="58" width="25" height="25" fill="#7c3aed" stroke="#5b21b6" stroke-width="2" rx="3" transform="rotate(4 132.5 70.5)"/>
+  <text x="132.5" y="73" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white" transform="rotate(4 132.5 70.5)">?</text>
+  
+  <!-- Tile 5: ! -->
+  <rect x="150" y="62" width="25" height="25" fill="#ea580c" stroke="#c2410c" stroke-width="2" rx="3" transform="rotate(-3 162.5 74.5)"/>
+  <text x="162.5" y="77" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white" transform="rotate(-3 162.5 74.5)">!</text>
+  
+  <!-- Wavy Line (Hammock/Smile) -->
+  <path d="M25 100 Q50 120 100 120 Q150 120 175 100" stroke="#1f2937" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Cute Cat -->
+  <!-- Cat Head -->
+  <ellipse cx="100" cy="140" rx="20" ry="18" fill="#fbbf24" stroke="#1f2937" stroke-width="2"/>
+  
+  <!-- Cat Ears -->
+  <path d="M85 125 L80 110 L95 120 Z" fill="#fbbf24" stroke="#1f2937" stroke-width="2"/>
+  <path d="M115 125 L120 110 L105 120 Z" fill="#fbbf24" stroke="#1f2937" stroke-width="2"/>
+  
+  <!-- Cat Eyes -->
+  <circle cx="92" cy="135" r="3" fill="#1f2937"/>
+  <circle cx="108" cy="135" r="3" fill="#1f2937"/>
+  
+  <!-- Cat Nose -->
+  <ellipse cx="100" cy="142" rx="2" ry="1.5" fill="#ef4444"/>
+  
+  <!-- Cat Mouth -->
+  <path d="M95 148 Q100 152 105 148" stroke="#1f2937" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Cat Whiskers -->
+  <line x1="80" y1="140" x2="70" y2="138" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="80" y1="142" x2="70" y2="142" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="80" y1="144" x2="70" y2="146" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <line x1="120" y1="140" x2="130" y2="138" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="120" y1="142" x2="130" y2="142" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="120" y1="144" x2="130" y2="146" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Cat Tail -->
+  <path d="M120 150 Q135 145 140 155" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="20" cy="20" r="3" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="180" cy="20" r="3" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="20" cy="180" r="3" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="180" cy="180" r="3" fill="#fbbf24" opacity="0.6"/>
+</svg>
