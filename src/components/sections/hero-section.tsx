@@ -19,7 +19,7 @@ import {
 	PopoverContent,
 } from "@/components/ui/popover";
 import { Label } from "@/components/ui/label";
-import AdSense from "../hero-ad";
+// import AdSense from "../hero-ad";
 
 export function HeroSection() {
 	const [letters, setLetters] = useState("");
