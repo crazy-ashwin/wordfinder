@@ -53,16 +53,17 @@ export default function RootLayout({
 			<head suppressHydrationWarning>
 				{/* Google Search Console Verification */}
 				<meta name="google-site-verification" content="QHQKepL2KLiQJB3IL4g9MfTEkzyle6i1Gd4BQjfpJ28" />
+				<meta name="google-site-verification" content="XXXXXXXXXXXXXXXXXX" />
 
 				{/* Google AdSense */}
 				<script
 					async
-					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2320541206058096'
+					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XxxXXXXXXXXXXXXXXXXX'
 					crossOrigin='anonymous'></script>
 
 				{/* Google Analytics */}
 				<Script
-					src='https://www.googletagmanager.com/gtag/js?id=G-WD0SR0VT9B'
+					src='https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXXXXXXX'
 					strategy='afterInteractive'
 				/>
 				<Script id='google-analytics' strategy='afterInteractive'>
@@ -70,7 +71,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-WD0SR0VT9B');
+            gtag('config', 'G-XXXXXXXXXXXXXXX');
           `}
 				</Script>
 				<link rel='icon' href='/favicon.ico' />
