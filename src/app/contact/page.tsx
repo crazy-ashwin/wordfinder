@@ -41,7 +41,7 @@ export default function ContactPage() {
 									Whatsapp
 								</a>
 								<p className='text-sm text-gray-500 mt-2'>
-									We typically respond instance or sometime it's takes 1-2 business
+									We typically respond instance or sometime it&apos;s takes 1-2 business
 									days.
 								</p>
 							</CardContent>
