@@ -26,22 +26,22 @@ export default function ContactPage() {
 								<CardTitle className='flex items-center gap-3'>
 									<Mail className='h-6 w-6 text-green-500' />
 									<span className='text-xl'>
-										Email Support
+										Whatsapp Support
 									</span>
 								</CardTitle>
 							</CardHeader>
 							<CardContent>
 								<p className='text-gray-600 mb-2'>
 									For general inquiries, support, or feedback,
-									please email us.
+									please Whatsapp us.
 								</p>
 								<a
-									href='mailto:support@findwordfinder.com'
+									href='https://wa.me/917003168945?text=Hi%2C%20I%E2%80%99m%20contacting%20you%20from%20wordfinderword.com.%20Please%20assist%20me'
 									className='text-green-600 font-semibold hover:underline'>
-									contact@findwordfinder.com
+									Whatsapp
 								</a>
 								<p className='text-sm text-gray-500 mt-2'>
-									We typically respond within 1-2 business
+									We typically respond instance or sometime it's takes 1-2 business
 									days.
 								</p>
 							</CardContent>

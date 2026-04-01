@@ -79,7 +79,7 @@ export default function DisclaimerPage() {
             </CardHeader>
             <CardContent>
               <p className="leading-relaxed">
-                If you have any questions about this disclaimer, please contact us at disclaimer@findwordfinder.com or through our contact form.
+                If you have any questions about this disclaimer, please contact us at disclaimer@wordfinderword.com or through our contact form.
               </p>
               <p className="text-sm text-gray-600 mt-4">
                 Last Updated: June 2025

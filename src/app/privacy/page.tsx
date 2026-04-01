@@ -163,7 +163,7 @@ export default function PrivacyPage() {
 							<p className='leading-relaxed'>
 								If you have any questions about this privacy
 								policy, please contact us at
-								privacy@FindWordFinder.com or through our contact
+								privacy@wordfinderword.com or through our contact
 								form.
 							</p>
 							<p className='text-sm text-gray-600 mt-4'>
