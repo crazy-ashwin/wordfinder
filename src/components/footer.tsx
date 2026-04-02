@@ -196,7 +196,7 @@ export function Footer() {
 						<div className='space-y-2 pt-4'>
 							<div className='flex items-center gap-2 text-gray-300 text-sm'>
 								<Mail className='h-4 w-4' />
-								<span>support@FindWordFinder.com</span>
+								<span>support@wordfinderword.com</span>
 							</div>
 							<div className='flex items-center gap-2 text-gray-300 text-sm'>
 								<Phone className='h-4 w-4' />

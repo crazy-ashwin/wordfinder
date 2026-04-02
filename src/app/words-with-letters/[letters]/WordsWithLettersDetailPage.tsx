@@ -165,7 +165,7 @@ export default function WordsWithLettersDetailPage({ letters }: Props) {
                 </Link>{" "}
                 if you&apos;re playing Wordle-like games or use the{" "}
                 <a
-                  href='https://findwordfinder.com/wordle-helper'
+                  href='wordle-helper'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='text-blue-600 hover:underline'>
