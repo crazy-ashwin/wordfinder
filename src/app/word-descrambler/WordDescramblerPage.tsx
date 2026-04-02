@@ -405,7 +405,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='wordle-helper'
+									href='/wordle-helper'
 									target='Wordle'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Wordle
@@ -413,7 +413,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='words-with-friends-cheat'
+									href='/words-with-friends-cheat'
 									target='Words With Friends Cheat'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Words With Friends Cheat
@@ -421,7 +421,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='crossword-solver'
+									href='/crossword-solver'
 									target='Crossword Solver'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Crossword Solver
@@ -429,7 +429,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='anagram-solver'
+									href='/anagram-solver'
 									target='Anagram Solver'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Anagram Solver
@@ -437,7 +437,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='word-descrambler'
+									href='/word-descrambler'
 									target='Word Descrambler'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Word Descrambler
@@ -445,7 +445,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='scrabble-calculator'
+									href='/scrabble-calculator'
 									target='Scrabble Calculator'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Scrabble Calculator
@@ -453,7 +453,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='word-unscrambler'
+									href='/word-unscrambler'
 									target='Word Unscrambler'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Word Unscrambler
@@ -461,7 +461,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='jumble-solver'
+									href='/jumble-solver'
 									target='Jumble Solver'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Jumble Solver
@@ -469,7 +469,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='word-generator'
+									href='/word-generator'
 									target='Random Word Generator'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Random Word Generator
@@ -485,7 +485,7 @@ export default function WordDescramblerPage() {
 						<ul className='space-y-1 text-gray-800'>
 							<li>
 								<a
-									href='spelling'
+									href='/spelling'
 									target='Spelling'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									MisSpelling{" "}
@@ -493,7 +493,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='scrabble-dictionary'
+									href='/scrabble-dictionary'
 									target='Scrabble Dictionary'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Scrabble Dictionary
@@ -501,7 +501,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='words-with-friends-dictionary'
+									href='/words-with-friends-dictionary'
 									target='Words With Friends Dictionary'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Words With Friends Dictionary
@@ -509,7 +509,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='grammar-rules'
+									href='/grammar-rules'
 									target='Grammar Rules'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Grammar Rules
@@ -525,7 +525,7 @@ export default function WordDescramblerPage() {
 						<ul className='space-y-1 text-gray-800'>
 							<li>
 								<a
-									href='words-ending-in'
+									href='/words-ending-in'
 									target='Words Ending In'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Words Ending In
@@ -533,7 +533,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='words-with-letters'
+									href='/words-with-letters'
 									target='Words With Letters'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Words With Letters
@@ -541,7 +541,7 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								<a
-									href='words-start-with'
+									href='/words-start-with'
 									target='Words Start With'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Words Start With
