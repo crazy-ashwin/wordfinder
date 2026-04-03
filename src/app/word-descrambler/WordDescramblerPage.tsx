@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 
 // Placeholder unscramble function (to be replaced with real logic or API)
@@ -75,11 +76,11 @@ export default function WordDescramblerPage() {
 						wildcards, up to 2 wildcards allowed). Optionally,
 						filter by word length. Click{" "}
 						<b>
-							<a
-								href='word-descrambler'
+							<Link
+								href='/word-descrambler'
 								target='Descrambler'>
 								Descramble
-							</a>
+							</Link>
 						</b>{" "}
 						to see all possible words you can make!
 					</p>
@@ -228,11 +229,11 @@ export default function WordDescramblerPage() {
 							up to 2 wildcards) and optionally set a word length.
 							Click{" "}
 							<b>
-								<a
-									href='word-descrambler'
+								<Link
+									href='/word-descrambler'
 									target='Descrambler'>
 									Descramble
-								</a>
+								</Link>
 							</b>{" "}
 							to see all possible words. Use the filters and tips
 							to maximize your results and game performance.
@@ -320,17 +321,17 @@ export default function WordDescramblerPage() {
 							</li>
 							<li>
 								Use the{" "}
-								<a
+								<Link
 									href='/words-start-with'
 									target='Words Start With'>
 									Words Start With
-								</a>{" "}
+								</Link>{" "}
 								or{" "}
-								<a
+								<Link
 									href='/words-ending-in'
 									target='Words Ending In'>
 									Words Ending In
-								</a>{" "}
+								</Link>{" "}
 								filters for more targeted results.
 							</li>
 							<li>
@@ -396,84 +397,84 @@ export default function WordDescramblerPage() {
 						</h2>
 						<ul className='space-y-1 text-gray-700'>
 							<li>
-								<a
-									href=''
+								<Link
+									href='https://www.wordfinderword.com/'
 									target='wordfinderword'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Word Finder
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/wordle-helper'
 									target='Wordle'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Wordle
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/words-with-friends-cheat'
 									target='Words With Friends Cheat'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Words With Friends Cheat
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/crossword-solver'
 									target='Crossword Solver'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Crossword Solver
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/anagram-solver'
 									target='Anagram Solver'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Anagram Solver
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/word-descrambler'
 									target='Word Descrambler'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Word Descrambler
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/scrabble-calculator'
 									target='Scrabble Calculator'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Scrabble Calculator
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/word-unscrambler'
 									target='Word Unscrambler'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Word Unscrambler
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/jumble-solver'
 									target='Jumble Solver'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Jumble Solver
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/word-generator'
 									target='Random Word Generator'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Random Word Generator
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
@@ -484,36 +485,36 @@ export default function WordDescramblerPage() {
 					<div className='p-4'>
 						<ul className='space-y-1 text-gray-800'>
 							<li>
-								<a
+								<Link
 									href='/spelling'
 									target='Spelling'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									MisSpelling{" "}
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/scrabble-dictionary'
 									target='Scrabble Dictionary'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Scrabble Dictionary
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/words-with-friends-dictionary'
 									target='Words With Friends Dictionary'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Words With Friends Dictionary
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/grammar-rules'
 									target='Grammar Rules'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Grammar Rules
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
@@ -524,28 +525,28 @@ export default function WordDescramblerPage() {
 					<div className='p-4'>
 						<ul className='space-y-1 text-gray-800'>
 							<li>
-								<a
+								<Link
 									href='/words-ending-in'
 									target='Words Ending In'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Words Ending In
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/words-with-letters'
 									target='Words With Letters'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Words With Letters
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href='/words-start-with'
 									target='Words Start With'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									Words Start With
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>

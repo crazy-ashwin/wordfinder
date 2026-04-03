@@ -249,13 +249,13 @@ export default function WordsByLengthPage({ length }: Props) {
 										</Link>{" "}
 										if you&apos;re playing Wordle-like games or
 										use the{" "}
-										<a
+										<Link
 											href='wordle-helper'
 											target='_blank'
 											rel='noopener noreferrer'
 											className='text-blue-600 hover:underline'>
 											New York Times Wordle Solver
-										</a>{" "}
+										</Link>{" "}
 										to quickly find the NYT Wordle daily
 										answer.
 									</>
@@ -292,13 +292,13 @@ export default function WordsByLengthPage({ length }: Props) {
 										</Link>{" "}
 										if you&apos;re playing Wordle-like games or
 										use the{" "}
-										<a
+										<Link
 											href='wordle-helper'
 											target='_blank'
 											rel='noopener noreferrer'
 											className='text-blue-600 hover:underline'>
 											New York Times Wordle Solver
-										</a>{" "}
+										</Link>{" "}
 										to quickly find the NYT Wordle daily
 										answer.
 									</>
@@ -336,13 +336,13 @@ export default function WordsByLengthPage({ length }: Props) {
 										</Link>{" "}
 										if you&apos;re playing Wordle-like games or
 										use the{" "}
-										<a
+										<Link
 											href='wordle-helper'
 											target='_blank'
 											rel='noopener noreferrer'
 											className='text-blue-600 hover:underline'>
 											New York Times Wordle Solver
-										</a>{" "}
+										</Link>{" "}
 										to quickly find the NYT Wordle daily
 										answer.
 									</>
@@ -383,13 +383,13 @@ export default function WordsByLengthPage({ length }: Props) {
 										</Link>{" "}
 										if you&apos;re playing Wordle-like games or
 										use the{" "}
-										<a
+										<Link
 											href='wordle-helper'
 											target='_blank'
 											rel='noopener noreferrer'
 											className='text-blue-600 hover:underline'>
 											New York Times Wordle Solver
-										</a>{" "}
+										</Link>{" "}
 										to quickly find the NYT Wordle daily
 										answer.
 									</>
