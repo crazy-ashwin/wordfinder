@@ -482,7 +482,9 @@ export default function WordDescramblerPage() {
 									target='Random Word Generator'
 									className='block px-3 py-2 rounded-lg transition-all duration-150 hover:bg-green-100 hover:text-green-800 focus-visible:bg-green-200 focus-visible:outline-none shadow-sm hover:shadow'>
 									eGFR Calculator for CKD
-								</Link><li>
+								</Link>
+								</li>
+								<li>
 								<Link
 									href='/encode-decode'
 									target='Random Word Generator'
