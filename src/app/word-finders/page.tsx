@@ -46,6 +46,13 @@ export default function WordFindersPage() {
 			color: "text-orange-600",
 		},
 		{
+			title: "Word Generator",
+			description: "Generate random words for creative writing and brainstorming",
+			icon: Search,
+			href: "/word-generator",
+			color: "text-orange-600",
+		},
+		{
 			title: "Wordle Tools",
 			description:
 				"Get hints and suggestions for your daily Wordle puzzle",
