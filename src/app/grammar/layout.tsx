@@ -48,7 +48,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 	if (topicData) {
 		const { topic, category } = topicData;
-		const fullUrl = `${baseUrl}${topic.href.replace(/^\//, "")}`;
+		const fullUrl = `${baseUrl}/${topic.href.replace(/^\//, "")}`;
 
 		return {
 			title: `${topic.name} | Word Finder`,
