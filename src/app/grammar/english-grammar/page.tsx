@@ -1,6 +1,22 @@
-"use client"
 
+import { baseUrl } from "@/lib/constant"
 import Link from "next/link"
+
+export const metadata = {
+  title: "English Grammar | Word Finder",
+  description: "English Grammar is the system of rules that govern how words are combined to form meaningful sentences. It includes the structure of words, phrases, clauses, and sentences.",
+  keywords: "English Grammar, grammar, English, grammar rules, parts of speech, sentence structure, punctuation, tenses, common grammar mistakes, grammar examples",
+  openGraph: {
+    title: "English Grammar | Word Finder",
+    description: "English Grammar is the system of rules that govern how words are combined to form meaningful sentences. It includes the structure of words, phrases, clauses, and sentences.",
+    url: `${baseUrl}/grammar/english-grammar`,
+    type: "article",
+  },
+  alternates: {
+    canonical: `${baseUrl}/grammar/english-grammar`,
+  },
+  robots: "index, follow",
+}
 
 export default function EnglishGrammar() {
   return (
