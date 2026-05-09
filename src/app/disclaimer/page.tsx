@@ -1,4 +1,29 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { baseUrl } from "@/lib/constant";
+
+export const metadata = {
+  title: "Disclaimer | Word Finder",
+  description: "Disclaimer for Word Finder Word. Read our disclaimer for more information.",
+  keywords: "Disclaimer, wordfinderword, word finder disclaimer, disclaimer word finder",
+  openGraph: {
+    title: "Disclaimer | Word Finder",
+    description: "Disclaimer for Word Finder Word. Read our disclaimer for more information.",
+    url: `${baseUrl}/disclaimer`,
+    type: "article",
+  },
+  alternates: {
+    canonical: `${baseUrl}/disclaimer`,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  }
+
+}
 
 export default function DisclaimerPage() {
   return (

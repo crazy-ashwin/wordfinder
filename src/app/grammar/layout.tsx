@@ -25,10 +25,20 @@ async function getGrammarTopic(pathname: string) {
 export async function generateMetadata(): Promise<Metadata> {
 	const headersList = await headers();
 	const pathname = headersList.get("x-pathname") || "/grammar";
+	const fullUrl = `${baseUrl}${pathname.startsWith("/") ? "" : "/"}${pathname}`;
+
+	// Base metadata that applies to all grammar pages
+	const baseMetadata: Metadata = {
+		alternates: {
+			canonical: fullUrl,
+		},
+		robots: "index, follow",
+	};
 
 	// If we're on the main grammar page
 	if (pathname === "/grammar" || pathname === "/grammar/") {
 		return {
+			...baseMetadata,
 			title: "Grammar Guides | Word Finder",
 			description:
 				"Comprehensive grammar resources: parts of speech, punctuation, tenses, and more.",
@@ -36,10 +46,9 @@ export async function generateMetadata(): Promise<Metadata> {
 				title: "Grammar Guides | Word Finder",
 				description:
 					"Comprehensive grammar resources: parts of speech, punctuation, tenses, and more.",
-				url: `${baseUrl}/grammar`,
+				url: fullUrl,
 				type: "website",
 			},
-			robots: "index, follow",
 		};
 	}
 
@@ -48,9 +57,9 @@ export async function generateMetadata(): Promise<Metadata> {
 
 	if (topicData) {
 		const { topic, category } = topicData;
-		const fullUrl = `${baseUrl}/${topic.href.replace(/^\//, "")}`;
 
 		return {
+			...baseMetadata,
 			title: `${topic.name} | Word Finder`,
 			description:
 				topic.description ||
@@ -68,26 +77,24 @@ export async function generateMetadata(): Promise<Metadata> {
 				url: fullUrl,
 				type: "article",
 			},
-			alternates: {
-				canonical: fullUrl,
-			},
-			robots: "index, follow",
 		};
 	}
 
-	// Fallback metadata if topic not found
+	// Fallback metadata if topic not found in the predefined data
+	const pageName = pathname.split("/").pop()?.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()) || "Grammar Guide";
+
 	return {
-		title: "Grammar Guides | Word Finder",
+		...baseMetadata,
+		title: `${pageName} | Word Finder`,
 		description:
-			"Comprehensive grammar resources: parts of speech, punctuation, tenses, and more.",
+			`Learn all about ${pageName.toLowerCase()} and other essential English grammar rules with Word Finder.`,
 		openGraph: {
-			title: "Grammar Guides | Word Finder",
+			title: `${pageName} | Word Finder`,
 			description:
-				"Comprehensive grammar resources: parts of speech, punctuation, tenses, and more.",
-			url: `${baseUrl}/grammar`,
-			type: "website",
+				`Learn all about ${pageName.toLowerCase()} and other essential English grammar rules.`,
+			url: fullUrl,
+			type: "article",
 		},
-		robots: "index, follow",
 	};
 }
 

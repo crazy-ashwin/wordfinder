@@ -10,38 +10,46 @@ import { baseUrl } from "@/lib/constant";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-	metadataBase: new URL(`${baseUrl}`),
-	title: "Word Finder Word - Free Word Finder Word & Scrabble Helper Tools | Find Words for Word Games",
-	description:
-		"Find words for Scrabble, Words with Friends, crosswords and other word games. Free Word Finder Word, anagram solver, word unscrambler and rhyme finder tools. Boost your word game scores!",
-	keywords:
-		"Word Finder Word, scrabble helper, words with friends cheat, anagram solver, word unscrambler, crossword solver, rhyme finder, word games, scrabble words, word tools",
-	authors: [{ name: "Word Finder Word Team" }],
-	creator: "Word Finder Word",
-	publisher: "Word Finder Word",
-	robots: "index, follow",
-	alternates: {
-		canonical: `${baseUrl}`,
-	},
-	openGraph: {
-		title: "Word Finder Word - Free Word Finder Word & Scrabble Helper Tools",
+import { headers } from "next/headers";
+
+export async function generateMetadata(): Promise<Metadata> {
+	const headersList = await headers();
+	const pathname = headersList.get("x-pathname") || "/";
+	const fullUrl = `${baseUrl}${pathname === "/" ? "" : pathname}`;
+
+	return {
+		metadataBase: new URL(`${baseUrl}`),
+		title: "Word Finder Word - Free Word Finder Word & Scrabble Helper Tools | Find Words for Word Games",
 		description:
-			"Find words for Scrabble, Words with Friends, crosswords and other word games. Free Word Finder Word, anagram solver, word unscrambler and rhyme finder tools.",
-		url: `${baseUrl}`,
-		siteName: "Word Finder Word",
-		images: [
-			{
-				url: `${baseUrl}/banner.png`,
-				width: 1200,
-				height: 630,
-				alt: "Word Finder Word",
-			},
-		],
-		locale: "en_US",
-		type: "website",
-	},
-};
+			"Find words for Scrabble, Words with Friends, crosswords and other word games. Free Word Finder Word, anagram solver, word unscrambler and rhyme finder tools. Boost your word game scores!",
+		keywords:
+			"Word Finder Word, scrabble helper, words with friends cheat, anagram solver, word unscrambler, crossword solver, rhyme finder, word games, scrabble words, word tools",
+		authors: [{ name: "Word Finder Word Team" }],
+		creator: "Word Finder Word",
+		publisher: "Word Finder Word",
+		robots: "index, follow",
+		alternates: {
+			canonical: fullUrl,
+		},
+		openGraph: {
+			title: "Word Finder Word - Free Word Finder Word & Scrabble Helper Tools",
+			description:
+				"Find words for Scrabble, Words with Friends, crosswords and other word games. Free Word Finder Word, anagram solver, word unscrambler and rhyme finder tools.",
+			url: fullUrl,
+			siteName: "Word Finder Word",
+			images: [
+				{
+					url: `${baseUrl}/banner.png`,
+					width: 1200,
+					height: 630,
+					alt: "Word Finder Word",
+				},
+			],
+			locale: "en_US",
+			type: "website",
+		},
+	};
+}
 
 export default function RootLayout({
 	children,

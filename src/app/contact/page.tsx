@@ -1,9 +1,32 @@
-"use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Twitter, Linkedin, Facebook } from "lucide-react";
+import { baseUrl } from "@/lib/constant";
 
+export const metadata = {
+  title: "Contact Us | Word Finder",
+  description: "Contact us for support, feedback, or any inquiries. We're here to help and answer any questions you might have.",
+  keywords: "Contact Us, feedback, support, inquiries, wordfinderword, word finder contact, contact word finder",
+  openGraph: {
+    title: "Contact Us | Word Finder",
+    description: "Contact us for support, feedback, or any inquiries.",
+    url: `${baseUrl}/contact`,
+    type: "article",
+  },
+  alternates: {
+    canonical: `${baseUrl}/contact`,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  }
+
+}
 
 export default function ContactPage() {
 	return (
