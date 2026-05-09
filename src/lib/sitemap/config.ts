@@ -4,6 +4,7 @@ import { baseUrl } from "@/lib/constant";
 export { baseUrl };
 
 export type SitemapEntry = MetadataRoute.Sitemap[number];
+export type ChangeFrequency = SitemapEntry["changeFrequency"];
 
 export const SITEMAP_CONFIG = {
   defaultPriority: 0.5,

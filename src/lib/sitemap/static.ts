@@ -1,4 +1,4 @@
-import { baseUrl, SITEMAP_CONFIG, SitemapEntry } from "./config";
+import { baseUrl, SITEMAP_CONFIG, SitemapEntry, ChangeFrequency } from "./config";
 
 export function getStaticPages(): SitemapEntry[] {
   const pages = [
@@ -38,6 +38,6 @@ export function getStaticPages(): SitemapEntry[] {
     url: `${baseUrl}/${page.url}`.replace(/\/$/, ""),
     lastModified: new Date(),
     priority: page.priority,
-    changeFrequency: page.changeFrequency as any,
+    changeFrequency: page.changeFrequency as ChangeFrequency,
   }));
 }

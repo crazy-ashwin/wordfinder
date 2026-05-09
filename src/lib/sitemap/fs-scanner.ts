@@ -1,12 +1,12 @@
 import fs from "fs";
 import path from "path";
-import { baseUrl, SITEMAP_CONFIG, SitemapEntry } from "./config";
+import { baseUrl, SITEMAP_CONFIG, SitemapEntry, ChangeFrequency } from "./config";
 
 export function scanDirectoryForSitemap(
   dirPath: string,
   routePrefix: string,
   priority: number = SITEMAP_CONFIG.highPriority,
-  frequency: any = SITEMAP_CONFIG.weekly
+  frequency: ChangeFrequency = SITEMAP_CONFIG.weekly
 ): SitemapEntry[] {
   const fullPath = path.join(process.cwd(), dirPath);
   let folders: string[] = [];
